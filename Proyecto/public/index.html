@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="ess">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Curso Tailwind</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header class="bg-gray-900 text-white body-font">
+      <div
+        class="
+          container
+          mx-auto
+          flex flex-wrap
+          p-5
+          flex-col
+          md:flex-row
+          items-center
+        "
+      >
+        <a
+          class="
+            flex
+            title-font
+            font-medium
+            items-center
+            text-gray-900
+            mb-4
+            md:mb-0
+          "
+        >
+          <span class="ml-3 text-xl text-white">Great ANZ</span>
+        </a>
+        <nav
+          class="
+            md:ml-auto
+            md:mr-auto
+            flex flex-wrap
+            items-center
+            text-base
+            justify-center
+          "
+        >
+          <a
+            class="
+              mr-5
+              hover:text-white
+              border-b-2 border-transparent
+              hover:border-b-2 hover:border-gray-500
+              transition
+              ease-in-out
+              duration-500
+              cursor-pointer
+            "
+            >Prueba Link</a
+          >
+          <a
+            class="
+              mr-5
+              hover:text-white
+              border-b-2 border-transparent
+              hover:border-b-2 hover:border-gray-500
+              transition
+              ease-in-out
+              duration-500
+              cursor-pointer
+            "
+            >Prueba Link</a
+          >
+          <a
+            class="
+              mr-5
+              hover:text-white
+              border-b-2 border-transparent
+              hover:border-b-2 hover:border-gray-500
+              transition
+              ease-in-out
+              duration-500
+              cursor-pointer
+            "
+            >Prueba Link</a
+          >
+          <a
+            class="
+              mr-5
+              hover:text-white
+              border-b-2 border-transparent
+              hover:border-b-2 hover:border-gray-500
+              transition
+              ease-in-out
+              duration-500
+              cursor-pointer
+            "
+            >Prueba Link</a
+          >
+        </nav>
+        <button
+          class="
+            inline-flex
+            items-center
+            bg-gray-700
+            border-0
+            py-1
+            px-3
+            focus:outline-none
+            hover:bg-gray-600
+            rounded
+            text-base
+            mt-4
+            md:mt-0
+            transition
+            ease-in-out
+            duration-1000
+          "
+        >
+          Contacto
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!--Hero-->
+    <section class="bg-gray-800 text-white body-font">
+      <div
+        class="
+          container
+          mx-auto
+          flex
+          px-5
+          py-24
+          md:flex-row
+          flex-col
+          items-center
+        "
+      >
+        <div
+          class="
+            lg:flex-grow
+            md:w-1/2
+            lg:pr-24
+            md:pr-16
+            flex flex-col
+            md:items-start
+            md:text-left
+            mb-16
+            md:mb-0
+            items-center
+            text-center
+          "
+        >
+          <h1
+            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white"
+          >
+            Esto es un titulo prueba XD
+            <br class="hidden lg:inline-block" />Tailwind Manda
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsam
+            nemo doloremque magni vero possimus quo, cum libero eaque aut odit
+            officiis. Optio, at? At tenetur libero sequi deserunt atque?
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="
+                inline-flex
+                text-white
+                bg-gray-700
+                border-0
+                py-2
+                px-6
+                focus:outline-none
+                transition
+                duration-1000
+                hover:bg-gray-600
+                rounded
+                text-lg
+              "
+            >
+              Boton
+            </button>
+            <button
+              class="
+                ml-4
+                inline-flex
+                text-gray-700
+                bg-gray-100
+                border-0
+                py-2
+                px-6
+                focus:outline-none
+                transition
+                duration-1000
+                hover:bg-gray-400
+                rounded
+                text-lg
+              "
+            >
+              Boton
+            </button>
+          </div>
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img
+            class="
+              object-cover object-center
+              rounded
+              w-full
+              h-auto
+              animate-pulse
+            "
+            alt="hero"
+            src="./paisaje-cultura-sostenibilidad.jpg"
+          />
+        </div>
+      </div>
+    </section>
+    <!--Feature-->
+    <section
+      class="
+        bg-gray-500
+        text-white
+        grid grid-cols-1
+        sm:grid-cols-3
+        gap-4
+        sm:gap-0
+      "
+    >
+      <div
+        class="
+          max-w-sm
+          bg-gray-700
+          overflow-hidden
+          rounded-lg
+          mx-auto
+          mt-10
+          mb-10
+          shadow-2xl
+        "
+      >
+        <img class="w-full" src="./paisaje-cultura-sostenibilidad.jpg" alt="" />
+        <h2 class="font-bold px-10 py-5 text-3xl">Titulo</h2>
+        <p class="font-medium px-10">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
+          perspiciatis facilis deserunt debitis, incidunt nobis commodi
+          doloribus tenetur omnis natus numquam iste rerum voluptatem animi.
+          Commodi mollitia reiciendis et ratione?
+        </p>
+        <span class="flex justify-center">
+          <button
+            class="
+              mt-5
+              mb-4
+              w-1/2
+              h-10
+              bg-gray-900
+              rounded
+              transition
+              duration-1000
+              hover:bg-gray-800
+              font-bold
+              text-xl
+            "
+          >
+            Boton
+          </button>
+        </span>
+      </div>
+      <!--Card-2-->
+      <div
+        class="
+          max-w-sm
+          bg-gray-700
+          overflow-hidden
+          rounded-lg
+          mx-auto
+          mt-10
+          mb-10
+          shadow-2xl
+        "
+      >
+        <img class="w-full" src="./paisaje-cultura-sostenibilidad.jpg" alt="" />
+        <h2 class="font-bold px-10 py-5 text-3xl">Titulo</h2>
+        <p class="font-medium px-10">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
+          perspiciatis facilis deserunt debitis, incidunt nobis commodi
+          doloribus tenetur omnis natus numquam iste rerum voluptatem animi.
+          Commodi mollitia reiciendis et ratione?
+        </p>
+        <span class="flex justify-center">
+          <button
+            class="
+              mt-5
+              mb-4
+              w-1/2
+              h-10
+              bg-gray-900
+              rounded
+              transition
+              duration-1000
+              hover:bg-gray-800
+              font-bold
+              text-xl
+            "
+          >
+            Boton
+          </button>
+        </span>
+      </div>
+      <!--Card-3-->
+      <div
+        class="
+          max-w-sm
+          bg-gray-700
+          overflow-hidden
+          rounded-lg
+          mx-auto
+          mt-10
+          mb-10
+          shadow-2xl
+        "
+      >
+        <img class="w-full" src="./paisaje-cultura-sostenibilidad.jpg" alt="" />
+        <h2 class="font-bold px-10 py-5 text-3xl">Titulo</h2>
+        <p class="font-medium px-10">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
+          perspiciatis facilis deserunt debitis, incidunt nobis commodi
+          doloribus tenetur omnis natus numquam iste rerum voluptatem animi.
+          Commodi mollitia reiciendis et ratione?
+        </p>
+        <span class="flex justify-center">
+          <button
+            class="
+              mt-5
+              mb-4
+              w-1/2
+              h-10
+              bg-gray-900
+              rounded
+              transition
+              duration-1000
+              hover:bg-gray-800
+              font-bold
+              text-xl
+            "
+          >
+            Boton
+          </button>
+        </span>
+      </div>
+    </section>
+
+    <!--Como Funciona-->
+    <section class="bg-gray-800">
+      <!--Parte 1-->
+      <div
+        class="
+          container
+          m-auto
+          py-5
+          grid grid-cols-1
+          sm:grid-cols-4
+          grid-rows-2
+          gap-x-8
+          sm:gap-x-8
+        "
+      >
+        <div class="col-span-2 row-span-2 hidden sm:grid">
+          <img src="./paisaje-cultura-sostenibilidad.jpg" alt="" />
+        </div>
+        <div class="col-span-2">
+          <div class="bg-gray-600 w-full h-full">
+            <h2 class="font-bold text-2xl text-white px-20 py-5">
+              Titulo Aqui hay uno
+            </h2>
+            <span
+              class="
+                border-2
+                rounded-full
+                border-gray-900
+                flex
+                w-12
+                h-12
+                justify-center
+                items-center
+                text-white
+                font-bold
+                mx-5
+                -my-12
+              "
+              >1</span
+            >
+            <ul class="text-white list-disc font-medium px-24 py-8">
+              <li>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                nulla fuga
+              </li>
+              <li>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                nulla fuga
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-span-2">
+          <div class="bg-gray-700 w-full h-full">
+            <h2 class="font-bold text-2xl text-white px-20 py-5">
+              Titulo Aqui hay uno
+            </h2>
+            <span
+              class="
+                border-2
+                rounded-full
+                flex
+                w-12
+                h-12
+                justify-center
+                items-center
+                text-white
+                font-bold
+                mx-5
+                -my-12
+              "
+              >2</span
+            >
+            <ul class="text-white list-disc font-medium px-24 py-8">
+              <li>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                nulla fuga
+              </li>
+              <li>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                nulla fuga
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--Parte 2-->
+      <div
+        class="
+          container
+          m-auto
+          py-5
+          grid grid-cols-1
+          sm:grid-cols-4
+          grid-rows-2
+          gap-x-8
+          sm:gap-x-8
+        "
+      >
+        <div class="col-span-2 row-span-2 col-start-3 hidden sm:grid">
+          <img src="./paisaje-cultura-sostenibilidad.jpg" alt="" />
+        </div>
+        <div class="col-span-2 row-start-1">
+          <div class="bg-gray-600 w-full h-full">
+            <h2 class="font-bold text-2xl text-white px-20 py-5">
+              Titulo Aqui hay uno
+            </h2>
+            <span
+              class="
+                border-2
+                rounded-full
+                flex
+                w-12
+                h-12
+                justify-center
+                items-center
+                text-white
+                font-bold
+                mx-5
+                -my-12
+              "
+              >3</span
+            >
+            <ul class="text-white list-disc font-medium px-24 py-8">
+              <li>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                nulla fuga
+              </li>
+              <li>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                nulla fuga
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-span-2">
+          <div class="bg-gray-700 w-full h-full">
+            <h2 class="font-bold text-2xl text-white px-20 py-5">
+              Titulo Aqui hay uno
+            </h2>
+            <span
+              class="
+                border-2
+                rounded-full
+                flex
+                w-12
+                h-12
+                justify-center
+                items-center
+                text-white
+                font-bold
+                mx-5
+                -my-12
+              "
+              >4</span
+            >
+            <ul class="text-white list-disc font-medium px-24 py-8">
+              <li>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                nulla fuga
+              </li>
+              <li>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                nulla fuga
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact-->
+
+    <section class="text-gray-600 body-font relative">
+      <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div
+          class="
+            lg:w-2/3
+            md:w-1/2
+            bg-gray-300
+            rounded-lg
+            overflow-hidden
+            sm:mr-10
+            p-10
+            flex
+            items-end
+            justify-start
+            relative
+          "
+        >
+          <iframe
+            width="100%"
+            height="100%"
+            class="absolute inset-0"
+            frameborder="0"
+            title="map"
+            marginheight="0"
+            marginwidth="0"
+            scrolling="no"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15352.909935669431!2d-87.9410741!3d15.8446368!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc82f5183b2945e49!2sAn%C3%A1lisis%20Cl%C3%ADnicos%20Beaumont!5e0!3m2!1ses-419!2shn!4v1623687399482!5m2!1ses-419!2shn"
+            style="filter: grayscale(1) contrast(1.2) opacity(0.4)"
+          ></iframe>
+          <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md ">
+            <div class="lg:w-1/2 px-6">
+              <h2
+                class="
+                  title-font
+                  font-semibold
+                  text-gray-900
+                  tracking-widest
+                  text-xs
+                "
+              >
+                Direccion
+              </h2>
+              <p class="mt-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+              <h2
+                class="
+                  title-font
+                  font-semibold
+                  text-gray-900
+                  tracking-widest
+                  text-xs
+                "
+              >
+                EMAIL
+              </h2>
+              <a class="text-gray-500 leading-relaxed">example@email.com</a>
+              <h2
+                class="
+                  title-font
+                  font-semibold
+                  text-gray-900
+                  tracking-widest
+                  text-xs
+                  mt-4
+                "
+              >
+                Numero
+              </h2>
+              <p class="leading-relaxed">9999-9999</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            lg:w-1/3
+            md:w-1/2
+            bg-white
+            flex flex-col
+            md:ml-auto
+            w-full
+            md:py-8
+            mt-8
+            md:mt-0
+          "
+        >
+          <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">
+            Contacto
+          </h2>
+          <p class="leading-relaxed mb-5 text-gray-600">
+            Lorem ipsum dolor sit amet.
+          </p>
+          <div class="relative mb-4">
+            <label for="name" class="leading-7 text-sm text-gray-600"
+              >Name</label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="
+                w-full
+                bg-white
+                rounded
+                border border-gray-300
+                focus:border-gray-500
+                focus:ring-2 focus:ring-gray-200
+                text-base
+                outline-none
+                text-gray-700
+                py-1
+                px-3
+                leading-8
+                transition-colors
+                duration-200
+                ease-in-out
+              "
+            />
+          </div>
+          <div class="relative mb-4">
+            <label for="email" class="leading-7 text-sm text-gray-600"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="
+                w-full
+                bg-white
+                rounded
+                border border-gray-300
+                focus:border-gray-500
+                focus:ring-2 focus:ring-gray-200
+                text-base
+                outline-none
+                text-gray-700
+                py-1
+                px-3
+                leading-8
+                transition-colors
+                duration-200
+                ease-in-out
+              "
+            />
+          </div>
+          <div class="relative mb-4">
+            <label for="message" class="leading-7 text-sm text-gray-600"
+              >Mensaje</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              class="
+                w-full
+                bg-white
+                rounded
+                border border-gray-300
+                focus:border-gray-500
+                focus:ring-2 focus:ring-gray-200
+                h-32
+                text-base
+                outline-none
+                text-gray-700
+                py-1
+                px-3
+                resize-none
+                leading-6
+                transition-colors
+                duration-200
+                ease-in-out
+              "
+            ></textarea>
+          </div>
+          <button
+            class="
+              text-white
+              bg-gray-500
+              border-0
+              py-2
+              px-6
+              focus:outline-none
+              hover:bg-gray-600
+              rounded
+              text-lg
+              transition
+              duration-700
+              ease-in-out
+            "
+          >
+            Button
+          </button>
+          <p class="text-xs text-gray-500 mt-3">
+            Chicharrones blog helvetica normcore iceland tousled brook viral
+            artisan.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer class="bg-gray-900 text-white body-font">
+      <div
+        class="
+          container
+          px-5
+          py-8
+          mx-auto
+          flex
+          items-center
+          sm:flex-row
+          flex-col
+        "
+      >
+        <a
+          class="
+            flex
+            title-font
+            font-medium
+            items-center
+            md:justify-start
+            justify-center
+            m-auto
+            text-white
+          "
+        >
+          <span class="ml-3 text-xl">Great ANZ</span>
+        </a>
+        <p
+          class="
+            text-sm text-gray-500
+            sm:ml-4
+            sm:pl-4
+            sm:border-l-2 sm:border-gray-200
+            sm:py-2
+            sm:mt-0
+            mt-4
+          "
+        >
+          © 2020 Great ANZ
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
